@@ -1,0 +1,17 @@
+import { ComponentProps } from 'react';
+import { Svg, Path } from 'react-native-svg';
+
+const BubblesMessagesChatCommunicate = (props: ComponentProps<typeof Svg>) => {
+  return (
+    <Svg width="25" height="24" viewBox="0 0 25 24" fill="none" {...props}>
+      <Path
+        fillRule="evenodd"
+        clipRule="evenodd"
+        d="M19.502 3C21.1588 3 22.502 4.34315 22.502 6V12C22.502 13.6569 21.1588 15 19.502 15H18.502V16C18.502 17.6569 17.1588 19 15.502 19H11.2611L6.9876 21.3742C6.67787 21.5462 6.3002 21.5416 5.99483 21.3619C5.68945 21.1822 5.50195 20.8543 5.50195 20.5V19C3.8451 19 2.50195 17.6569 2.50195 16V10C2.50195 8.34315 3.8451 7 5.50195 7H6.50195V6C6.50195 4.34315 7.8451 3 9.50195 3H19.502ZM8.50195 7H15.502C17.1588 7 18.502 8.34315 18.502 10V13H19.502C20.0542 13 20.502 12.5523 20.502 12V6C20.502 5.44772 20.0542 5 19.502 5H9.50195C8.94967 5 8.50195 5.44772 8.50195 6V7Z"
+        {...props}
+      />
+    </Svg>
+  );
+};
+
+export default BubblesMessagesChatCommunicate;

@@ -1,0 +1,17 @@
+import { ComponentProps } from 'react';
+import { Svg, Path } from 'react-native-svg';
+
+const DirectorChairChair = (props: ComponentProps<typeof Svg>) => {
+  return (
+    <Svg width="25" height="24" viewBox="0 0 25 24" fill="none" {...props}>
+      <Path
+        fillRule="evenodd"
+        clipRule="evenodd"
+        d="M20.5 11V5C20.5 3.34315 19.1569 2 17.5 2H7.5C5.84315 2 4.5 3.34315 4.5 5V11H3.5C2.94772 11 2.5 11.4477 2.5 12C2.5 12.5523 2.94772 13 3.5 13H5.20642L10.6509 16.5L4.95936 20.1588C4.49479 20.4575 4.36029 21.0762 4.65894 21.5408C4.9576 22.0053 5.57631 22.1398 6.04088 21.8412L12.5001 17.6888L18.9594 21.8412C19.4239 22.1398 20.0426 22.0053 20.3413 21.5408C20.64 21.0762 20.5054 20.4575 20.0409 20.1588L14.3494 16.5L19.7938 13H21.5C22.0523 13 22.5 12.5523 22.5 12C22.5 11.4477 22.0523 11 21.5 11H20.5ZM16.0953 13H8.90494L12.5001 15.3112L16.0953 13Z"
+        {...props}
+      />
+    </Svg>
+  );
+};
+
+export default DirectorChairChair;

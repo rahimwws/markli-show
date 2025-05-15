@@ -1,0 +1,15 @@
+import { ComponentProps } from 'react';
+import { Svg, Path } from 'react-native-svg';
+
+const HeadphonesSupport = (props: ComponentProps<typeof Svg>) => {
+  return (
+    <Svg width="25" height="24" viewBox="0 0 25 24" fill="none" {...props}>
+      <Path
+        d="M5.5 12C5.5 8.13401 8.63401 5 12.5 5C16.366 5 19.5 8.13401 19.5 12V13H18.5C16.8431 13 15.5 14.3431 15.5 16V18C15.5 19.6569 16.8431 21 18.5 21C20.1569 21 21.5 19.6569 21.5 18V12C21.5 7.36745 18 3.55237 13.5 3.05493V3H12.5C7.52944 3 3.5 7.02944 3.5 12V18C3.5 19.6569 4.84315 21 6.5 21C8.15685 21 9.5 19.6569 9.5 18V16C9.5 14.3431 8.15685 13 6.5 13H5.5V12Z"
+        {...props}
+      />
+    </Svg>
+  );
+};
+
+export default HeadphonesSupport;

@@ -1,0 +1,15 @@
+import { ComponentProps } from 'react';
+import { Svg, Path } from 'react-native-svg';
+
+const Heart2LikeHealthLifeFav = (props: ComponentProps<typeof Svg>) => {
+  return (
+    <Svg width="25" height="24" viewBox="0 0 25 24" fill="none" {...props}>
+      <Path
+        d="M12.9894 21.3725C21.5173 16.5927 23.6154 10.9028 22.0112 6.90294C21.2324 4.96087 19.5977 3.56916 17.6696 3.13926C15.9721 2.76077 14.117 3.14222 12.5004 4.42553C10.8838 3.14222 9.02876 2.76077 7.33124 3.13927C5.40318 3.56917 3.76845 4.96089 2.98959 6.90295C1.38544 10.9029 3.48361 16.5927 12.0115 21.3725C12.3153 21.5428 12.6857 21.5428 12.9894 21.3725Z"
+        {...props}
+      />
+    </Svg>
+  );
+};
+
+export default Heart2LikeHealthLifeFav;

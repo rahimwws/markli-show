@@ -1,0 +1,17 @@
+import { ComponentProps } from 'react';
+import { Svg, Path } from 'react-native-svg';
+
+const Wallet = (props: ComponentProps<typeof Svg>) => {
+  return (
+    <Svg width="25" height="24" viewBox="0 0 25 24" fill="none" {...props}>
+      <Path
+        fillRule="evenodd"
+        clipRule="evenodd"
+        d="M7 3C5.067 3 3.5 4.567 3.5 6.5V17C3.5 19.2091 5.29086 21 7.5 21H18.5C20.1569 21 21.5 19.6569 21.5 18V11C21.5 9.34315 20.1569 8 18.5 8H17.5V5.41176C17.5 4.07978 16.4202 3 15.0882 3H7ZM15.5 8V5.41176C15.5 5.18435 15.3156 5 15.0882 5H7C6.17157 5 5.5 5.67157 5.5 6.5C5.5 7.32843 6.17157 8 7 8H15.5ZM16 15.75C16.6904 15.75 17.25 15.1904 17.25 14.5C17.25 13.8096 16.6904 13.25 16 13.25C15.3096 13.25 14.75 13.8096 14.75 14.5C14.75 15.1904 15.3096 15.75 16 15.75Z"
+        {...props}
+      />
+    </Svg>
+  );
+};
+
+export default Wallet;

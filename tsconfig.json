@@ -1,0 +1,15 @@
+{
+  "extends": "expo/tsconfig.base",
+  "compilerOptions": {
+    "strict": true,
+    "jsx": "react-jsx",
+    "baseUrl": ".",
+    "moduleResolution": "bundler",
+    "typeRoots": ["./node_modules/@types", "./src/shared/types"],
+    "paths": {
+      "@/*": ["src/*"],
+      "@/svg/*": ["src/shared/assets/svg/*"],
+      "@/theme/*": ["src/shared/lib/theme/*"]
+    }
+  }
+}

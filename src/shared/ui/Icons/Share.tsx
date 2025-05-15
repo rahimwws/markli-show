@@ -1,0 +1,17 @@
+import { ComponentProps } from 'react';
+import { Svg, Path, G } from 'react-native-svg';
+
+const Share = (props: ComponentProps<typeof Svg>) => {
+  return (
+    <Svg width="23" height="22" viewBox="0 0 23 22" fill="none" {...props}>
+      <G opacity="1" {...props}>
+        <Path
+          d="M15.0074 3.33598L7.35699 5.87765C2.21434 7.59752 2.21434 10.4019 7.35699 12.1133L9.62755 12.8673L10.3815 15.1378C12.0929 20.2805 14.9057 20.2805 16.6171 15.1378L19.1673 7.49585C20.3025 4.06459 18.4387 2.19223 15.0074 3.33598Z"
+          {...props}
+        />
+      </G>
+    </Svg>
+  );
+};
+
+export default Share;

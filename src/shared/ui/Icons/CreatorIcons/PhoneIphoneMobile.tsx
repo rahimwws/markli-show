@@ -1,0 +1,17 @@
+import { ComponentProps } from 'react';
+import { Svg, Path } from 'react-native-svg';
+
+const PhoneIphoneMobile = (props: ComponentProps<typeof Svg>) => {
+  return (
+    <Svg width="25" height="24" viewBox="0 0 25 24" fill="none" {...props}>
+      <Path
+        fillRule="evenodd"
+        clipRule="evenodd"
+        d="M5.5 4C5.5 2.34315 6.84315 1 8.5 1H16.5C18.1569 1 19.5 2.34315 19.5 4V20C19.5 21.6569 18.1569 23 16.5 23H8.5C6.84315 23 5.5 21.6569 5.5 20V4ZM10.5 18C9.94772 18 9.5 18.4477 9.5 19C9.5 19.5523 9.94772 20 10.5 20H14.5C15.0523 20 15.5 19.5523 15.5 19C15.5 18.4477 15.0523 18 14.5 18H10.5Z"
+        {...props}
+      />
+    </Svg>
+  );
+};
+
+export default PhoneIphoneMobile;

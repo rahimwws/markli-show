@@ -1,0 +1,28 @@
+import { ComponentProps } from 'react';
+import { Svg, Path, Defs, G, Rect, ClipPath } from 'react-native-svg';
+
+const GraduateCapStudyEducationAcademicStudent = (props: ComponentProps<typeof Svg>) => {
+  return (
+    <Svg width="25" height="24" viewBox="0 0 25 24" fill="none" {...props}>
+      <G clipPath="url(#clip0_437_9109)">
+        <Path
+          d="M12.9138 3.08963C12.6509 2.97012 12.3491 2.97012 12.0862 3.08963L1.0862 8.08963C0.729203 8.2519 0.5 8.60786 0.5 9C0.5 9.39214 0.729203 9.7481 1.0862 9.91037L12.0862 14.9104C12.3491 15.0299 12.6509 15.0299 12.9138 14.9104L22.5 10.553V16C22.5 16.5523 22.9477 17 23.5 17C24.0523 17 24.5 16.5523 24.5 16V9C24.5 8.60786 24.2708 8.2519 23.9138 8.08963L12.9138 3.08963Z"
+          {...props}
+        />
+        <Path
+          fillRule="evenodd"
+          clipRule="evenodd"
+          d="M5 12.801V15.5211C5 16.6179 5.59858 17.6273 6.56101 18.1534L11.061 20.6134C11.9577 21.1036 13.0422 21.1036 13.9389 20.6134L18.439 18.1534C19.4014 17.6273 20 16.6179 20 15.5211V12.801L13.1807 16.2735C12.753 16.4913 12.247 16.4913 11.8193 16.2735L5 12.801Z"
+          {...props}
+        />
+      </G>
+      <Defs>
+        <ClipPath id="clip0_437_9109">
+          <Rect width="24" height="24" fill="white" transform="translate(0.5)" />
+        </ClipPath>
+      </Defs>
+    </Svg>
+  );
+};
+
+export default GraduateCapStudyEducationAcademicStudent;
