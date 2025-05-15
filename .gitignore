@@ -12,8 +12,6 @@ web-build/
 
 .env
 bun.lockb
-ios
-android
 
 # macOS
 .DS_Store
